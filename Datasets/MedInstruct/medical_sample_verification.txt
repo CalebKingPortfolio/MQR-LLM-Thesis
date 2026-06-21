@@ -1,0 +1,118 @@
+
+--- Sample 1 ---
+    - Instruction : Given the following lab values, identify if the patient is likely experiencing anemia. '1' indicates the patient is likely experiencing anemia, '0' indicates the patient is not likely experiencing anemia.
+    - Input : Hemoglobin: 12.0 g/dL, Hematocrit: 36%
+    - Output : 0
+    - Subset : Bioinstruct
+
+================================================================================
+
+--- Sample 2 ---
+    - Instruction : Explain what pathogenesis is and how it is involved in disease development?
+    - Input : 
+    - Output : Pathogenesis refers to the sequence of events that occur from the initiation of a disease process until the development of clinical symptoms. It involves the study of how diseases develop and progress within the body.
+
+Pathogenesis encompasses various factors and mechanisms such as genetic, environmental, and immunological factors, as well as microbial infections, toxins, and underlying physiological abnormalities. These factors can interact with each other to trigger a cascade of events leading to cellular dysfunction, tissue damage, and ultimately disease manifestation.
+
+The pathogenic process typically involves multiple stages, including:
+
+1. Exposure: The individual encounters a causative agent such as a pathogen or toxin.
+
+2. Entry: The agent gains access to the body through various routes, such as inhalation, ingestion, or direct contact.
+
+3. Adherence: The agent attaches itself to host cells and tissues, allowing it to establish an infection or cause damage.
+
+4. Invasion: The agent penetrates the host's defense mechanisms, evades immune responses, and spreads to different organs and tissues.
+
+5. Colonization: The agent establishes itself within the host, often by adapting to the host's environment and exploiting its resources.
+
+6. Multiplication: The agent replicates and proliferates in large numbers, causing further damage to the host's cells and tissues.
+
+7. Host response: The host's immune system recognizes the presence of the agent and initiates an inflammatory response to eliminate the threat. However, excessive or dysregulated immune responses can also contribute to tissue damage.
+
+8.
+    - Subset : AlpaCare-52k
+
+================================================================================
+
+--- Sample 3 ---
+    - Instruction : Reconstruct this definition into an explanation that a teenager will understand easily.
+    - Input : Hemoglobin is the protein molecule in red blood cells that carries oxygen from the lungs to the body's tissues and returns carbon dioxide from the tissues back to the lung
+    - Output : Sure! Hemoglobin is like a special protein found in red blood cells that has an important job. Its main duty is to carry oxygen from our lungs to all the different parts of our body, like our muscles and organs. It's kind of like a delivery person for oxygen. After delivering the oxygen, hemoglobin also helps pick up carbon dioxide, which is like waste material produced by our body's cells, and brings it back to our lungs so we can breathe it out. So basically, hemoglobin works as a transportation system for oxygen and carbon dioxide in our body, making sure everything keeps running smoothly.
+    - Subset : AlpaCare-52k
+
+================================================================================
+
+--- Sample 4 ---
+    - Instruction : Given a prompt about a healthcare policy, summarise the implications of the policy for the general public.
+    - Input : Policy: A new law proposed that requires all citizens to have health insurance.
+    - Output : The proposed law would ensure that all citizens have access to health insurance coverage, which could lead to better health outcomes and reduced healthcare costs in the long run.
+    - Subset : Bioinstruct
+
+================================================================================
+
+--- Sample 5 ---
+    - Instruction : Based on the given symptoms and lab results, classify whether it could be Crohn’s disease or Irritable Bowel Syndrome (IBS).
+    - Input : A 32-year-old male patient reports periodic diarrhoea and abdominal pain. He has lost weight recently without any intentional effort. Blood test showed increased C-reactive protein levels while colonoscopy revealed inflammation of small intestine
+    - Output : Based on the given symptoms and lab results, it is more likely that the patient is suffering from Crohn's disease rather than Irritable Bowel Syndrome (IBS).
+
+Crohn's disease is an inflammatory bowel disease that can cause periodic diarrhea and abdominal pain. In addition, weight loss without intentional effort is commonly seen in Crohn's disease due to malabsorption of nutrients.
+
+Increased C-reactive protein (CRP) levels in the blood are indicative of inflammation and are often elevated in patients with Crohn's disease.
+
+Furthermore, the inflammation of the small intestine in the colonoscopy findings also supports the diagnosis of Crohn's disease.
+
+Therefore, considering the symptoms, lab results, and colonoscopy findings, it is more likely that the patient has Crohn's disease.
+    - Subset : AlpaCare-52k
+
+================================================================================
+
+--- Sample 6 ---
+    - Instruction : Simplify the provided information about diabetes mellitus into language understandable by a layperson.
+    - Input : “Diabetes mellitus refers to a group of diseases that affect how your body uses blood sugar (glucose). The underlying cause of diabetes varies by type. But, no matter what type of diabetes you have, it can lead to excess sugar in your blood. Too much sugar in your blood can lead to serious health problems.”
+    - Output : Diabetes mellitus is a condition that affects how your body uses sugar (glucose). There are different types of diabetes, but they all lead to having too much sugar in your blood. This can cause serious health problems.
+    - Subset : AlpaCare-52k
+
+================================================================================
+
+--- Sample 7 ---
+    - Instruction : Given a list of medical abbreviations, provide the full term for each abbreviation.
+    - Input : Abbreviations: BP, HR, BMI, EKG
+    - Output : BP: Blood Pressure, HR: Heart Rate, BMI: Body Mass Index, EKG: Electrocardiogram
+    - Subset : Bioinstruct
+
+================================================================================
+
+--- Sample 8 ---
+    - Instruction : Consider the drug description and its side effects and infer whether it would be safe for a patient with a specific medical condition.
+    - Input : "This medication is an anticoagulant used to prevent stroke in patients with atrial fibrillation. Side effects may include bleeding, nausea, abdominal pain, and thrombocytopenia." The patient in question has peptic ulcer disease
+    - Output : Based on the drug description and side effects, this medication may not be safe for a patient with peptic ulcer disease.
+
+Peptic ulcer disease is a condition characterized by open sores in the lining of the stomach or the first part of the small intestine. One of the potential side effects of the medication, namely abdominal pain, could worsen the symptoms associated with peptic ulcers. In addition, bleeding is also a possible side effect of the medication, which can be concerning for patients with peptic ulcers as it can lead to further complications.
+
+Therefore, it would be advisable to discuss alternative treatment options with the healthcare provider that do not increase the risk of aggravating the symptoms or complications related to peptic ulcer disease.
+    - Subset : AlpaCare-52k
+
+================================================================================
+
+--- Sample 9 ---
+    - Instruction : Discuss one major pro and con of integrating Artificial Intelligence in medical education.
+    - Input : 
+    - Output : One major pro of integrating Artificial Intelligence (AI) in medical education is that it can enhance the learning experience for students. AI technologies can provide personalized and adaptive learning approaches, tailoring educational content to suit individual needs. This can help students grasp complex medical concepts more effectively and efficiently.
+
+On the other hand, a major con of integrating AI in medical education is the potential risk of replacing human instructors and reducing the importance of clinical skills development. While AI can provide valuable information and resources, it cannot replace the expertise and interpersonal skills that human instructors bring to the table. Additionally, clinical skills, such as hands-on examination and patient interaction, are essential aspects of medical education that require real-life practice and guidance from experienced mentors.
+    - Subset : AlpaCare-52k
+
+================================================================================
+
+--- Sample 10 ---
+    - Instruction : Given a medical scenario, provide a step-by-step guide to using a medical device or performing a medical procedure.
+    - Input : Medical scenario: Performing a blood glucose test using a glucometer.
+    - Output : Step 1: Wash your hands and dry them thoroughly.
+Step 2: Insert a fresh test strip into the glucometer.
+Step 3: Prick your finger with a lancet and squeeze out a small drop of blood.
+Step 4: Touch the tip of the test strip to the blood drop.
+Step 5: Wait for the glucometer to display the result and record it in a logbook.
+    - Subset : Bioinstruct
+
+================================================================================
