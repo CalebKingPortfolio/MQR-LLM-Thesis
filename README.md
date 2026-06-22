@@ -1,6 +1,6 @@
 ## MQR-LLM-Thesis
 
-Files for my masters thesis at UCOL. I fine-tuned LLaMA-3.2-3B-Instruct and Qwen2.5-3B-Instruct on medical datasets using LoRA and full instruction tuning to see if smaller models could get better at medical quantitative reasoning.
+Files from my masters thesis at UCOL. I fine-tuned LLaMA-3.2-3B-Instruct and Qwen2.5-3B-Instruct on medical datasets using LoRA and full instruction tuning to see if smaller models could get better at medical quantitative reasoning.
 
 ## What I did
 - Fine-tuned both models using LoRA and full instruction tuning on MedInstruct and Med-MathInstruct.
