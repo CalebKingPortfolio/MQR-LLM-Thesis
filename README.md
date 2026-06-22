@@ -1,16 +1,14 @@
-MQR-LLM-Thesis
+## MQR-LLM-Thesis
 
 Files for my masters thesis at UCOL. I fine-tuned LLaMA-3.2-3B-Instruct and Qwen2.5-3B-Instruct on medical datasets using LoRA and full instruction tuning to see if smaller models could get better at medical quantitative reasoning.
 
-What I did
-
-
-Fine-tuned both models using LoRA and full instruction tuning on MedInstruct and Med-MathInstruct
-Med-MathInstruct includes 15% MQR data from MedCalc-Bench-v1.0 to see if it made a difference
+## What I did
+- Fine-tuned both models using LoRA and full instruction tuning on MedInstruct and Med-MathInstruct
+- Med-MathInstruct includes 15% MQR data from MedCalc-Bench-v1.0 to see if it made a difference
 Evaluated across MedCalc-Bench-v1.0, MedQA-USMLE-4-options, and a MedInstruct test set
 
 
-What I found
+## What I found
 
 
 Full instruction tuning was stronger under direct prompting
