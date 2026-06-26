@@ -4,7 +4,7 @@ Files from my masters thesis at UCOL. I fine-tuned LLaMA-3.2-3B-Instruct and Qwe
 
 ## What I did
 - Fine-tuned both models using LoRA and full instruction tuning on MedInstruct and Med-MathInstruct.
-- Med-MathInstruct includes 15% MQR data from MedCalc-Bench-v1.0 to see if it made a difference.
+- Med-MathInstruct includes MQR data from MedCalc-Bench-v1.0 to see if it made a difference.
 - Evaluated across MedCalc-Bench-v1.0, MedQA-USMLE-4-options, and a MedInstruct test set.
 
 ## What I found
